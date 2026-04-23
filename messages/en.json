@@ -1,0 +1,120 @@
+{
+  "common": {
+    "locale": "English",
+    "switchLanguage": "Switch language"
+  },
+  "homepage": {
+    "brand": {
+      "homeAria": "Interior Gate homepage",
+      "nameSuffix": "nterior Gate"
+    },
+    "nav": {
+      "demos": "Demos",
+      "about": "About",
+      "blog": "Blog",
+      "pages": "Pages",
+      "contact": "Contact",
+      "aria": "Navigate to {item}"
+    },
+    "actions": {
+      "login": "Login",
+      "freeTrialCta": "Get Started Free",
+      "chatCta": "Start Chatting Now"
+    },
+    "hero": {
+      "heading": "Start chatting with customers, anytime, anywhere with Apex",
+      "description": "Great software that allows you to chat from any place at any time without any interruption.",
+      "imageAlt": "Woman using phone for chatting"
+    },
+    "stats": {
+      "customersValue": "2,291",
+      "customersLabel": "Happy Customers",
+      "ratingValue": "4.8/5",
+      "ratingLabel": "Rating",
+      "avatars": {
+        "avatarOneAlt": "Happy customer avatar one",
+        "avatarTwoAlt": "Happy customer avatar two",
+        "avatarThreeAlt": "Happy customer avatar three"
+      }
+    },
+    "testimonials": {
+      "avatarAlt": "{name} avatar",
+      "jenny": {
+        "name": "Jenny Wilson",
+        "message": "I commented on Figma, I want to add some fancy icons. Do you have any icon set?"
+      },
+      "ronald": {
+        "name": "Ronald Richards",
+        "message": "One of the best chatting app I have ever used."
+      }
+    },
+    "features": {
+      "title": "Features for a better experience",
+      "items": {
+        "videoMessaging": {
+          "title": "Video messaging",
+          "description": "This software is very easy for you to manage. You can use it as you wish."
+        },
+        "saveTime": {
+          "title": "Save your time",
+          "description": "This software is very easy for you to manage. You can use it as you wish."
+        },
+        "safePrivate": {
+          "title": "Keep safe & private",
+          "description": "This software is very easy for you to manage. You can use it as you wish."
+        }
+      }
+    },
+    "featureOne": {
+      "title": "Meet your customers with an AI support agent",
+      "descriptionOne": "Deliver faster replies with a smart assistant that helps your team answer questions in real time.",
+      "descriptionTwo": "Use visual conversation history and context-aware suggestions to keep every customer interaction smooth.",
+      "imageAlt": "AI support agent dashboard"
+    },
+    "featureTwo": {
+      "title": "Keep conversations active across every channel",
+      "description": "Space-based chat view helps your team follow message threads, prioritize urgent requests, and respond consistently.",
+      "cta": "Start Selling",
+      "imageAlt": "Team space chat interface"
+    },
+    "featureThree": {
+      "title": "Turn every inbox message into a sales opportunity",
+      "description": "Mail automation centralizes orders, support requests, and customer follow-ups so your team never misses an important update.",
+      "imageAlt": "Email and order management screen",
+      "statOneValue": "4.3K+",
+      "statOneLabel": "Website's Powering",
+      "statTwoValue": "7M+",
+      "statTwoLabel": "Chats in Last 2022"
+    },
+    "testimonial": {
+      "title": "Our blessed client said about us",
+      "cards": {
+        "one": {
+          "heading": "Incredible Experience",
+          "content": "We had an incredible experience working with the team and were impressed by how quickly they understood our needs and improved our product.",
+          "author": "Jane Cooper",
+          "role": "CEO, ABC Corporation"
+        },
+        "two": {
+          "heading": "Excellent Support",
+          "content": "Their support and execution quality helped us launch faster with more confidence. The process was smooth from start to finish.",
+          "author": "Wade Warren",
+          "role": "Product Lead, Designify"
+        }
+      }
+    },
+    "footer": {
+      "ctaTitle": "Ready to grow your business and connect with your customers better?",
+      "ctaButton": "Get Started Now",
+      "brandSuffix": "nterior Gate",
+      "nav": {
+        "about": "About",
+        "features": "Features",
+        "works": "Works",
+        "support": "Support"
+      },
+      "copyright": "© Copyright 2021, All Rights Reserved",
+      "legal": "Privacy Policy Terms & Conditions"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "common": {
+    "locale": "日本語",
+    "switchLanguage": "言語を切り替える"
+  },
+  "homepage": {
+    "brand": {
+      "homeAria": "Interior Gate ホームページ",
+      "nameSuffix": "nterior Gate"
+    },
+    "nav": {
+      "demos": "デモ",
+      "about": "概要",
+      "blog": "ブログ",
+      "pages": "ページ",
+      "contact": "お問い合わせ",
+      "aria": "{item} に移動"
+    },
+    "actions": {
+      "login": "ログイン",
+      "freeTrialCta": "無料で始める",
+      "chatCta": "今すぐチャットを始める"
+    },
+    "hero": {
+      "heading": "Apexで、いつでもどこでもお客様とチャットを始めましょう",
+      "description": "いつでもどこでも中断なくチャットできる優れたソフトウェアです。",
+      "imageAlt": "スマートフォンでチャットする女性"
+    },
+    "stats": {
+      "customersValue": "2,291",
+      "customersLabel": "満足しているお客様",
+      "ratingValue": "4.8/5",
+      "ratingLabel": "評価",
+      "avatars": {
+        "avatarOneAlt": "満足しているお客様のアバター1",
+        "avatarTwoAlt": "満足しているお客様のアバター2",
+        "avatarThreeAlt": "満足しているお客様のアバター3"
+      }
+    },
+    "testimonials": {
+      "avatarAlt": "{name} のアバター",
+      "jenny": {
+        "name": "Jenny Wilson",
+        "message": "Figmaにコメントしました。アイコンを追加したいのですが、良いアイコンセットはありますか？"
+      },
+      "ronald": {
+        "name": "Ronald Richards",
+        "message": "これまで使った中で最高のチャットアプリの一つです。"
+      }
+    },
+    "features": {
+      "title": "より良い体験のための機能",
+      "items": {
+        "videoMessaging": {
+          "title": "ビデオメッセージ",
+          "description": "このソフトウェアは管理しやすく、用途に合わせて自由に使えます。"
+        },
+        "saveTime": {
+          "title": "時間を節約",
+          "description": "このソフトウェアは管理しやすく、用途に合わせて自由に使えます。"
+        },
+        "safePrivate": {
+          "title": "安全かつプライベート",
+          "description": "このソフトウェアは管理しやすく、用途に合わせて自由に使えます。"
+        }
+      }
+    },
+    "featureOne": {
+      "title": "AIサポートエージェントで顧客対応を強化",
+      "descriptionOne": "スマートアシスタントにより、チームはリアルタイムでより速く正確に回答できます。",
+      "descriptionTwo": "会話履歴と文脈に基づく提案で、すべての顧客対応をスムーズに進められます。",
+      "imageAlt": "AIサポートエージェントのダッシュボード"
+    },
+    "featureTwo": {
+      "title": "あらゆるチャネルで会話を継続",
+      "description": "スペース型チャット画面でスレッドを整理し、緊急対応を優先しながら一貫した返信品質を維持できます。",
+      "cta": "販売を始める",
+      "imageAlt": "チームスペースチャット画面"
+    },
+    "featureThree": {
+      "title": "受信箱のメッセージを売上機会に変える",
+      "description": "メール自動化で注文・問い合わせ・フォローアップを一元化し、重要な更新の見落としを防ぎます。",
+      "imageAlt": "メールと注文管理の画面",
+      "statOneValue": "4.3K+",
+      "statOneLabel": "導入サイト数",
+      "statTwoValue": "7M+",
+      "statTwoLabel": "2022年のチャット数"
+    },
+    "testimonial": {
+      "title": "お客様の声",
+      "cards": {
+        "one": {
+          "heading": "素晴らしい体験",
+          "content": "短期間でニーズを理解し、プロダクトを大きく改善してくれました。チーム全体がとても満足しています。",
+          "author": "Jane Cooper",
+          "role": "CEO, ABC Corporation"
+        },
+        "two": {
+          "heading": "手厚いサポート",
+          "content": "サポート品質が高く、安心してスピーディーにリリースできました。最初から最後までスムーズでした。",
+          "author": "Wade Warren",
+          "role": "Product Lead, Designify"
+        }
+      }
+    },
+    "footer": {
+      "ctaTitle": "ビジネスを成長させ、顧客とのつながりをさらに強化しませんか？",
+      "ctaButton": "今すぐ始める",
+      "brandSuffix": "nterior Gate",
+      "nav": {
+        "about": "概要",
+        "features": "機能",
+        "works": "導入事例",
+        "support": "サポート"
+      },
+      "copyright": "© Copyright 2021, All Rights Reserved",
+      "legal": "Privacy Policy Terms & Conditions"
+    }
+  }
+}
