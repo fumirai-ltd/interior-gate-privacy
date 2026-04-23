@@ -1,6 +1,5 @@
 export const HOMEPAGE_ASSETS = {
-  heroPerson:
-    "https://www.figma.com/api/mcp/asset/7bc692e7-638a-46fb-a9fe-2bc15219141e",
+  heroPerson: "/assets/img/jp-boy.webp",
   avatarJenny:
     "https://www.figma.com/api/mcp/asset/24ee6387-a288-41f7-9759-dfe64ac42c6b",
   avatarRonald:

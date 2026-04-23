@@ -1,13 +1,10 @@
 import {ArrowRight} from "lucide-react";
-import Link from "next/link";
 import {useTranslations} from "next-intl";
 
 import {AnimatedSection} from "@/components/home/animated-section";
 import {Button} from "@/components/ui/button";
 
-const footerNavItems = ["about", "features", "works", "support"] as const;
-
-export const HomepageCtaFooter = () => {
+export const HomepageCtaSection = () => {
   const t = useTranslations("homepage.footer");
 
   return (
@@ -21,39 +18,6 @@ export const HomepageCtaFooter = () => {
             {t("ctaButton")}
             <ArrowRight className="size-4" />
           </Button>
-        </AnimatedSection>
-
-        <AnimatedSection
-          delay={0.1}
-          className="mt-24 flex flex-col items-center justify-between gap-6 border-t border-white/20 pt-8 lg:flex-row"
-        >
-          <p className="text-heading-xl font-bold">
-            <span className="text-interior-primary">I</span>
-            {t("brandSuffix")}
-          </p>
-
-          <nav className="flex flex-wrap items-center justify-center gap-8">
-            {footerNavItems.map((item) => (
-              <Link key={item} href="/" className="text-body-md text-white/80 hover:text-white">
-                {t(`nav.${item}`)}
-              </Link>
-            ))}
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <span className="size-4 rounded-full bg-white/70" />
-            <span className="size-4 rounded-full bg-white/70" />
-            <span className="size-4 rounded-full bg-white/70" />
-            <span className="size-4 rounded-full bg-white/70" />
-          </div>
-        </AnimatedSection>
-
-        <AnimatedSection
-          delay={0.16}
-          className="mt-7 flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-7 text-body-sm text-white/70 lg:flex-row"
-        >
-          <p>{t("copyright")}</p>
-          <p>{t("legal")}</p>
         </AnimatedSection>
       </div>
     </section>

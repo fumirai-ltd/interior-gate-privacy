@@ -5,6 +5,18 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+  {
+    rules: {
+      "no-console": ["warn", { allow: ["warn", "error", "info"] }],
+      "prefer-const": "warn",
+    },
+  },
+  {
+    files: ["scripts/**/*.{mjs,js,cjs}", "*.config.mjs", "postcss.config.*"],
+    rules: {
+      "no-console": "off",
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:

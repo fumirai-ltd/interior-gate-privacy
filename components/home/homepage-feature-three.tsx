@@ -11,7 +11,7 @@ export const HomepageFeatureThree = () => {
       <div className="mx-auto grid w-full max-w-7xl items-center gap-12 px-6 sm:px-8 lg:grid-cols-2 lg:px-10">
         <AnimatedSection direction="right" className="mx-auto w-full max-w-xl">
           <Image
-            src="/assets/img/mail.png"
+            src="/assets/img/mail.webp"
             alt={t("imageAlt")}
             width={960}
             height={768}

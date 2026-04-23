@@ -1,10 +1,9 @@
 import { ArrowRight, Star } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import {useTranslations} from "next-intl";
 
 import {AnimatedSection} from "@/components/home/animated-section";
-import {HomepageCtaFooter} from "@/components/home/homepage-cta-footer";
+import {HomepageCtaSection} from "@/components/home/homepage-cta-footer";
 import { Button } from "@/components/ui/button";
 import {HomepageFeatureOne} from "@/components/home/homepage-feature-one";
 import {HomepageFeatureList} from "@/components/home/homepage-feature-list";
@@ -14,20 +13,19 @@ import {HomepageTestimonial} from "@/components/home/homepage-testimonial";
 import {HOMEPAGE_ASSETS} from "@/lib/constants/homepage";
 
 const ratingStars = [0, 1, 2, 3, 4] as const;
-const navItems = ["demos", "about", "blog", "pages", "contact"] as const;
 
 const testimonials = [
   {
     id: "jenny",
     avatar: HOMEPAGE_ASSETS.avatarJenny,
     className:
-      "right-2 top-52 sm:right-6 sm:top-48 lg:right-0 lg:top-56 xl:right-10",
+      "right-2 top-52 sm:right-6 sm:top-48 lg:right-0 lg:top-70 xl:right-10",
   },
   {
     id: "ronald",
     avatar: HOMEPAGE_ASSETS.avatarRonald,
     className:
-      "bottom-20 left-2 sm:bottom-24 sm:left-8 lg:bottom-24 lg:left-0 xl:left-4",
+      "bottom-20 left-2 sm:bottom-24 sm:left-8 lg:bottom-30 lg:left-0 xl:left-4",
   },
 ] as const;
 
@@ -37,50 +35,7 @@ export const HomepageHero = () => {
   return (
     <main className="text-primary-black">
       <div className="bg-wood-primary">
-        <div className="mx-auto flex min-h-svh w-full max-w-7xl flex-col px-6 pb-16 pt-6 sm:px-8 lg:px-10">
-        <header className="flex items-center justify-between">
-          <Link
-            href="/"
-            aria-label={t("brand.homeAria")}
-            className="text-heading-xl font-bold tracking-tight"
-          >
-            <span className="text-interior-primary">I</span>
-            {t("brand.nameSuffix")}
-          </Link>
-
-          <nav
-            aria-label="Main navigation"
-            className="hidden items-center gap-9 md:flex"
-          >
-            {navItems.map((item) => (
-              <Link
-                key={item}
-                href="/"
-                aria-label={t("nav.aria", {item: t(`nav.${item}`)})}
-                className="text-body-md text-primary-black/90 transition-colors hover:text-interior-primary"
-              >
-                {t(`nav.${item}`)}
-              </Link>
-            ))}
-          </nav>
-
-          <div className="flex items-center gap-4">
-            <Link
-              href="/"
-              aria-label={t("actions.login")}
-              className="hidden text-body-md font-medium text-primary-black transition-colors hover:text-interior-primary sm:block"
-            >
-              {t("actions.login")}
-            </Link>
-            <Button
-              aria-label={t("actions.freeTrialCta")}
-              className="h-12 rounded-lg bg-interior-primary px-6 text-label-md font-medium text-white hover:bg-interior-dark"
-            >
-              {t("actions.freeTrialCta")}
-            </Button>
-          </div>
-        </header>
-
+        <div className="mx-auto flex min-h-svh w-full max-w-7xl flex-col px-6 pb-0 pt-10 sm:px-8 lg:px-10">
           <section className="mt-14 grid items-center gap-10 lg:grid-cols-2 lg:gap-8">
           <AnimatedSection direction="up" className="max-w-xl">
             <h1 className="text-display-md font-bold leading-tight tracking-tight lg:text-5xl">
@@ -231,7 +186,7 @@ export const HomepageHero = () => {
         <HomepageTestimonial />
       </AnimatedSection>
       <AnimatedSection direction="up" delay={0.2}>
-        <HomepageCtaFooter />
+        <HomepageCtaSection />
       </AnimatedSection>
     </main>
   );

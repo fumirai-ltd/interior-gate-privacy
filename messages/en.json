@@ -3,17 +3,39 @@
     "locale": "English",
     "switchLanguage": "Switch language"
   },
+  "seo": {
+    "siteName": "Interior Gate",
+    "defaultDescription": "Interior Gate helps you connect with customers via chat, anytime, anywhere—designed for modern teams and multi-channel support.",
+    "openGraphImageAlt": "Interior Gate product image",
+    "home": {
+      "title": "Interior Gate | Chat with customers, anytime, anywhere",
+      "description": "Interior Gate: chat and customer-communication support for your business. Streamline support with AI features and a consistent experience across channels."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Interior Gate",
+      "description": "How Interior Gate handles personal data: purposes, third parties, international transfers, and your rights under Japanese law (APPI) where applicable."
+    },
+    "terms": {
+      "title": "Terms of Service | Interior Gate",
+      "description": "Terms and conditions for using Interior Gate, including account rules, liability limits, and governing law for the service."
+    }
+  },
+  "legal": {
+    "hubTitle": "Legal",
+    "hubNavAria": "Legal documents navigation",
+    "documentsNavAria": "Legal documents",
+    "onThisPage": "On this page",
+    "onThisPageAria": "Sections on this page"
+  },
   "homepage": {
     "brand": {
       "homeAria": "Interior Gate homepage",
       "nameSuffix": "nterior Gate"
     },
     "nav": {
-      "demos": "Demos",
-      "about": "About",
-      "blog": "Blog",
-      "pages": "Pages",
-      "contact": "Contact",
+      "home": "Home",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
       "aria": "Navigate to {item}"
     },
     "actions": {
@@ -108,12 +130,11 @@
       "ctaButton": "Get Started Now",
       "brandSuffix": "nterior Gate",
       "nav": {
-        "about": "About",
-        "features": "Features",
-        "works": "Works",
-        "support": "Support"
+        "home": "Home",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
       },
-      "copyright": "© Copyright 2021, All Rights Reserved",
+      "copyright": "© Copyright 2026, All Rights Reserved",
       "legal": "Privacy Policy Terms & Conditions"
     }
   }

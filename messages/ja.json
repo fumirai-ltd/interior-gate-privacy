@@ -3,17 +3,39 @@
     "locale": "日本語",
     "switchLanguage": "言語を切り替える"
   },
+  "seo": {
+    "siteName": "Interior Gate",
+    "defaultDescription": "Interior Gate（インテリアゲート）は、いつでもどこでもお客様とチャットでつながるコミュニケーション支援サービスです。",
+    "openGraphImageAlt": "Interior Gate サービスイメージ",
+    "home": {
+      "title": "Interior Gate | いつでもどこでもお客様とチャット",
+      "description": "Interior Gate（インテリアゲート）。いつでもどこでもお客様とチャットでつながるコミュニケーション支援。AIサポートやマルチチャネル対応でビジネスを成長させます。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー | Interior Gate",
+      "description": "Interior Gate における個人情報の取得、利用目的、第三者提供、国外移転、開示等の手続、お問い合わせ窓口等。個人情報保護法（APPI）等に配慮した方針です。"
+    },
+    "terms": {
+      "title": "利用規約 | Interior Gate",
+      "description": "Interior Gate の利用条件、アカウント、禁止事項、免責・損害賠償の制限、規約の変更、準拠法・管轄等を定めた利用規約です。"
+    }
+  },
+  "legal": {
+    "hubTitle": "法的情報",
+    "hubNavAria": "法的情報のナビゲーション",
+    "documentsNavAria": "法務文書",
+    "onThisPage": "このページの内容",
+    "onThisPageAria": "このページの見出し一覧"
+  },
   "homepage": {
     "brand": {
       "homeAria": "Interior Gate ホームページ",
       "nameSuffix": "nterior Gate"
     },
     "nav": {
-      "demos": "デモ",
-      "about": "概要",
-      "blog": "ブログ",
-      "pages": "ページ",
-      "contact": "お問い合わせ",
+      "home": "ホーム",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約",
       "aria": "{item} に移動"
     },
     "actions": {
@@ -108,12 +130,11 @@
       "ctaButton": "今すぐ始める",
       "brandSuffix": "nterior Gate",
       "nav": {
-        "about": "概要",
-        "features": "機能",
-        "works": "導入事例",
-        "support": "サポート"
+        "home": "ホーム",
+        "privacyPolicy": "プライバシーポリシー",
+        "termsOfService": "利用規約"
       },
-      "copyright": "© Copyright 2021, All Rights Reserved",
+      "copyright": "© Copyright 2026, All Rights Reserved",
       "legal": "Privacy Policy Terms & Conditions"
     }
   }

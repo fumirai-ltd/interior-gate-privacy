@@ -7,9 +7,15 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "typecheck": "tsc --noEmit"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,json,css,mjs}\"",
+    "typecheck": "tsc --noEmit",
+    "check": "yarn typecheck && yarn lint",
+    "assets:webp": "node scripts/convert-assets-to-webp.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -37,6 +43,7 @@
     "postcss": "^8",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
+    "sharp": "^0.34.0",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   }

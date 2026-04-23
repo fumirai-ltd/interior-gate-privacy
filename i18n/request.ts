@@ -2,19 +2,18 @@ import {getRequestConfig} from "next-intl/server";
 
 import {routing} from "@/i18n/routing";
 
-type AppLocale = (typeof routing.locales)[number];
+import type {AppLocale} from "./config";
 
-const isAppLocale = (locale: string): locale is AppLocale => {
-  return routing.locales.includes(locale as AppLocale);
-};
+/**
+ * Static export (`output: "export"`) cannot use `requestLocale` / `headers()`.
+ * Locale is fixed at build time; use the default (ja) for all SSG output.
+ * To ship another language, build with a different messages import or a build flag.
+ */
+const staticLocale: AppLocale = routing.defaultLocale;
 
-export default getRequestConfig(async ({requestLocale}) => {
-  const requested = await requestLocale;
-  const locale: AppLocale =
-    requested && isAppLocale(requested) ? requested : routing.defaultLocale;
-
+export default getRequestConfig(async () => {
   return {
-    locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    locale: staticLocale,
+    messages: (await import(`../messages/${staticLocale}.json`)).default,
   };
 });
