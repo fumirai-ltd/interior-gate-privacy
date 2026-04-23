@@ -27,7 +27,7 @@ export const HomepageFeatureTwo = () => {
 
         <AnimatedSection direction="left" delay={0.08} className="relative">
           <Image
-            src="/assets/img/space-chat.webp"
+            src=""
             alt={t("imageAlt")}
             width={960}
             height={768}
