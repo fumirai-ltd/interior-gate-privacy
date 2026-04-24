@@ -5,7 +5,6 @@ import type {Metadata, Viewport} from "next";
 
 import "./globals.css"
 import {JsonLdSite} from "@/components/seo/json-ld";
-import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
 import { routing } from "@/i18n/routing";
 import {getRootDefaultMetadata} from "@/lib/seo/build-page-metadata";
@@ -47,7 +46,7 @@ export default function RootLayout({
       <body>
         <JsonLdSite />
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <ThemeProvider>{children}</ThemeProvider>
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>

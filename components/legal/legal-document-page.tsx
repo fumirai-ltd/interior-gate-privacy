@@ -15,7 +15,7 @@ export const LegalDocumentPage = ({
   sections,
 }: LegalDocumentPageProps) => {
   return (
-    <article className="w-full max-w-3xl text-primary-black">
+    <article className="w-full max-w-3xl text-primary-black m-auto">
       <h1 className="text-display-md font-bold leading-tight">{title}</h1>
       <p className="mt-3 text-body-md text-interior-text-secondary">
         {updatedAtLabel}: {updatedAt}
