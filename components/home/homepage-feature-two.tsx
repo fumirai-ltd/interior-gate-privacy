@@ -27,12 +27,12 @@ export const HomepageFeatureTwo = () => {
 
         <AnimatedSection direction="left" delay={0.08} className="relative">
           <Image
-            src=""
+            src="/assets/img/space-chat.webp"
             alt={t("imageAlt")}
             width={960}
             height={768}
             sizes="(max-width: 1024px) 100vw, 50vw"
-            className="mx-auto h-auto w-full max-w-xl rounded-2xl border border-interior-border/70 object-contain"
+            className="mx-auto h-auto w-full max-w-xl object-contain"
           />
         </AnimatedSection>
       </div>
