@@ -74,12 +74,14 @@ export const LegalDocumentShell = async ({
               </ul>
             </nav>
 
-            <LegalDocumentToc
-              sectionLinks={sectionLinks}
-              basePath={basePath}
-              tocTitle={tLegal("onThisPage")}
-              tocNavAria={tLegal("onThisPageAria")}
-            />
+            <div className="hidden lg:block">
+              <LegalDocumentToc
+                sectionLinks={sectionLinks}
+                basePath={basePath}
+                tocTitle={tLegal("onThisPage")}
+                tocNavAria={tLegal("onThisPageAria")}
+              />
+            </div>
           </aside>
 
           <div className="min-w-0 flex-1 border-t border-interior-border/80 pt-8 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0 xl:pl-12">
